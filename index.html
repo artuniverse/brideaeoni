@@ -48,7 +48,7 @@
       justify-content: center;
       gap: var(--btn-gap);
       /* 대지 이미지의 버튼 위치가 아래로 내려가야 하면 여기 padding-top 조절 */
-      padding-top: calc(22vh + 270px);
+      padding-top: calc(22vh + 260px);
       padding-bottom: 6vh;
     }
 
@@ -87,10 +87,10 @@
 
     /* 작은 화면에서 버튼 위치 미세 조정 */
     @media (max-height: 740px){
-      .content{ padding-top: 18vh; }
+      .content{ padding-top: calc(18vh + 260px); }
     }
     @media (max-height: 640px){
-      .content{ padding-top: 14vh; }
+      .content{ padding-top: calc(14vh + 260px); }
     }
 
     /* 접근성: 스크린리더용 */
